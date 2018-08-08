@@ -1,4 +1,6 @@
-/*primary-color: "#247492";
+/*
+background-color: #ECECD2;
+primary-color: "#247492";
 dark-color: "#054862";
 light-color: "#65A4BC";
 complement-color: "#E89132";
@@ -6,18 +8,91 @@ complement-dark: "#65A4BC";*/
 
 body {
   font-family: "Roboto Condensed";
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #d3d3d3;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.1em;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 3px double black;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.sidebar {
+  float: left;
+}
+
+/*.main-bar {
+  float: right;
+}*/
+
+.main {
+  margin: 2em auto;
+  padding: 1em;
+  height: auto;
+/*  border-style: solid;
+  border-color: black;
+  border-width: 1px;*/
+  background-color: #fffaf0;
+  max-width: 750px;
+
 }
 
 .contact {
-
+  margin-top: 0;
+  float: left;
 }
 
 .blurb {
-
+  font-style: italic;
+  float: right;
 }
 
 .skills {
+  float: left;
+  clear: right;
+}
 
+.main-entry {
+  
 }
 
 .education {
@@ -29,17 +104,4 @@ body {
 }
 
 .experience {
-
-}
-
-.heading {
-
-}
-
-.skill-list {
-
-}
-
-.project-list {
-
 }
