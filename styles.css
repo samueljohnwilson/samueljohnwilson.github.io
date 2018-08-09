@@ -87,6 +87,10 @@ ul {
   color: #666;
 }
 
+.vcard {
+  margin: 0 0 0 16px;
+}
+
 dt { 
   font-style: italic; 
   font-weight: bold; 
