@@ -1,107 +1,108 @@
-/*
-background-color: #ECECD2;
-primary-color: "#247492";
-dark-color: "#054862";
-light-color: "#65A4BC";
-complement-color: "#E89132";
-complement-dark: "#65A4BC";*/
 
-body {
-  font-family: "Roboto Condensed";
-  margin-bottom: 0;
-  margin-top: 0;
-  background-color: #d3d3d3;
+* { 
+  margin: 0; 
+  padding: 0; 
 }
 
-h1 {
-  margin-top: 0;
-  margin-bottom: 0.1em;
-  font-weight: bold;
+body { 
+  font: 16px Roboto Condensed, Sans-Serif; 
+  line-height: 24px; 
+  background-color: #fffaf0}
+
+.clear { 
+  clear: both; 
 }
 
-h2 {
-  margin-top: 0;
-  margin-bottom: 0.2em;
+#page-wrap { 
+  width: 800px; 
+  margin: 40px auto 60px; 
 }
 
-h3 {
-  margin-top: 0;
-  margin-bottom: 0;
+#pic { 
+  float: right; 
+  margin: -30px 0 0 0; }
+
+h1 { 
+  margin: 0 0 16px 0; 
+  padding: 0 0 16px 0; 
+  font-size: 42px; 
+  font-weight: bold; 
+  letter-spacing: -2px; 
+  border-bottom: 2px solid #999;
+  font: bold Roboto Condensed, Sans-Serif; 
 }
 
-h5 {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: bold;
+h2 { 
+  font-size: 18px; 
+  margin: 0 0 6px 0; 
+  position: relative; }
+
+h2 span { 
+  position: absolute; 
+  bottom: 0; right: 0; 
+  font-style: italic; 
+  font-family: Roboto Condensed, Serif; 
+  font-size: 16px; 
+  color: #999; 
+  font-weight: normal; }
+
+p { 
+  margin: 0 0 16px 0; 
 }
 
-hr {
-  margin-top: 0;
-  margin-bottom: 0;
-  border-top: 3px double black;
-}
-
-ul {
-  margin-top: 0;
-  margin-bottom: 0.2em;
-}
-
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.container {
-  height: auto;
-  margin-bottom: 1em;
-}
-
-.sidebar {
-  float: left;
-}
-
-/*.main-bar {
-  float: right;
-}*/
-
-.main {
-  margin: 2em auto;
-  padding: 1em;
-  height: auto;
-/*  border-style: solid;
-  border-color: black;
-  border-width: 1px;*/
-  background-color: #fffaf0;
-  max-width: 750px;
-
-}
-
-.contact {
-  margin-top: 0;
-  float: left;
-}
-
-.blurb {
+p.blurb { 
+  float: right; 
+  border-bottom: 2px solid #999; 
   font-style: italic;
-  float: right;
+  color: #999;
 }
 
-.skills {
-  float: left;
-  clear: right;
+img { 
+  width: 16px; 
+  padding-right: 4px; 
+  margin-top: 4px; }
+
+a { 
+  color: black;  
 }
 
-.main-entry {
-  
+a:hover { 
+  color: #999; }
+
+a.linkedin { 
+  margin-bottom: 4px; 
 }
 
-.education {
-
+ul { 
+  margin: 0 0 32px 17px; 
 }
 
-.projects {
-
+#objective { 
+  width: 500px; float: left; 
 }
 
-.experience {
+#objective p { 
+  font-family: Roboto Condensed, Sans-Serif; 
+  font-style: italic; 
+  color: #666;
 }
+
+dt { 
+  font-style: italic; 
+  font-weight: bold; 
+  font-size: 18px; 
+  text-align: right; 
+  padding: 0 26px 0 0; 
+  width: 150px; 
+  float: left; 
+  height: 240px; 
+  border-right: 1px solid #999;  }
+
+dd { 
+  width: 600px; 
+  float: right; }
+
+dd.clear { 
+  float: none; 
+  margin: 0; 
+  height: 15px; }
